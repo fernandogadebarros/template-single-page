@@ -36,7 +36,9 @@ export const Slider = () => {
 
   return (
     <section>
-      <Heading className="mb-14 mt-20 text-center text-3xl">My Work</Heading>
+      <Heading asChild className="mb-8 mt-20 text-center text-3xl" size="sm">
+        <h3>My Work</h3>
+      </Heading>
       <div className="slider-container">
         <SlickSlide {...settings}>
           {slides.map((slide) => (
