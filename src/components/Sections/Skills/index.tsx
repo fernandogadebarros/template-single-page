@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
 import { Heading } from '@/components/Typography/Heading';
 
 export const Skills = () => {
   return (
-    <section className="mt-20">
+    <section className="mt-8 lg:mt-20">
       <div className="container mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
         <div className="relative flex h-[300px] rounded-lg bg-full-purple p-3 lg:p-4">
           <div className="absolute right-4 h-[192px] w-[128px]">
@@ -57,11 +56,12 @@ export const Skills = () => {
                 />
               </div>
               <Heading
+                asChild
                 size="sm"
                 variant="light"
                 className="mt-auto font-semibold lg:font-bold"
               >
-                Apps
+                <h3>Apps</h3>
               </Heading>
             </div>
           </div>
@@ -75,8 +75,8 @@ export const Skills = () => {
                 className="object-contain"
               />
             </div>
-            <Heading size="sm" variant="light" className="mt-auto">
-              Illustrations
+            <Heading asChild size="sm" variant="light" className="mt-auto">
+              <h3>Illustrations</h3>
             </Heading>
           </div>
         </div>
@@ -91,8 +91,8 @@ export const Skills = () => {
                 className="object-contain"
               />
             </div>
-            <Heading size="sm" variant="light" className="mt-auto">
-              Photography
+            <Heading asChild size="sm" variant="light" className="mt-auto">
+              <h3>Photography</h3>
             </Heading>
           </div>
           <div className="relative flex h-[160px] rounded-lg bg-full-wine p-3 lg:h-1/2 lg:p-4">
@@ -105,8 +105,8 @@ export const Skills = () => {
                 className="object-contain"
               />
             </div>
-            <Heading size="sm" variant="light" className="mt-auto">
-              Motion Graphics
+            <Heading asChild size="sm" variant="light" className="mt-auto">
+              <h3>Motion Graphics</h3>
             </Heading>
           </div>
         </div>

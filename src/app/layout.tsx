@@ -1,6 +1,8 @@
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './globals.css';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import type { Metadata } from 'next';
-import './globals.css';
 import { Header } from '@/components/Template/Header';
 import { Footer } from '@/components/Template/Footer';
 
@@ -23,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${jakarta.variable} ${jakarta.className} antialiased`}>
+      <body
+        className={`${jakarta.variable} ${jakarta.className} bg-write-light antialiased`}
+      >
         <Header />
         {children}
         <Footer />

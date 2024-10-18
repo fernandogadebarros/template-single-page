@@ -16,8 +16,8 @@ const config: Config = {
         600: '37.5rem',
       },
       fontSize: {
-        '4xl': '2.5rem', // 40px
-        '5xl': '3.5rem', // 56px
+        '4xl': '2.5rem',
+        '5xl': '3.5rem',
       },
       colors: {
         full: {

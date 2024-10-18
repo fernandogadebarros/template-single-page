@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@/components/Form/Button';
 import { Logo } from '@/components/Media/Logo';
 

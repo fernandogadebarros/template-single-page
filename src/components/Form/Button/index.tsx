@@ -6,7 +6,7 @@ const button = tv({
   variants: {
     variant: {
       primary: 'bg-write-dark hover:bg-full-purple',
-      secondary: 'bg-full-pink hover:bg-full-orange',
+      secondary: 'bg-full-tomato hover:bg-full-orange',
     },
   },
   defaultVariants: {
