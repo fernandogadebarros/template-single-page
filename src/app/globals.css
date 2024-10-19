@@ -11,7 +11,7 @@
 }
 
 .slick-next {
-  right: calc(94vw / 2);
+  right: calc(92vw / 2);
   top: 110%;
   z-index: 1;
   width: 50px;
@@ -44,7 +44,7 @@
 }
 
 .slick-prev {
-  left: calc(94vw / 2);
+  left: calc(92vw / 2);
   top: 110%;
   z-index: 1;
   width: 50px;
