@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* TODO: trocar carousel - https://www.embla-carousel.com/get-started/react/ */
 
 .slick-slide {
   padding: 0 16px;
