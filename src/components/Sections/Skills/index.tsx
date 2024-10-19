@@ -21,7 +21,7 @@ export const Skills = () => {
             variant="light"
             className="mt-auto text-2xl font-semibold lg:font-bold"
           >
-            <h3>Graphic Design</h3>
+            <h2>Graphic Design</h2>
           </Heading>
         </div>
         <div className="flex flex-col gap-4 lg:gap-6">
@@ -42,7 +42,7 @@ export const Skills = () => {
                 variant="light"
                 className="mt-auto font-semibold lg:font-bold"
               >
-                <h3>Ui/UX</h3>
+                <h2>Ui/UX</h2>
               </Heading>
             </div>
             <div className="relative flex flex-1 rounded-lg bg-full-pink p-3 lg:p-4">
@@ -61,7 +61,7 @@ export const Skills = () => {
                 variant="light"
                 className="mt-auto font-semibold lg:font-bold"
               >
-                <h3>Apps</h3>
+                <h2>Apps</h2>
               </Heading>
             </div>
           </div>
@@ -76,7 +76,7 @@ export const Skills = () => {
               />
             </div>
             <Heading asChild size="sm" variant="light" className="mt-auto">
-              <h3>Illustrations</h3>
+              <h2>Illustrations</h2>
             </Heading>
           </div>
         </div>
@@ -92,7 +92,7 @@ export const Skills = () => {
               />
             </div>
             <Heading asChild size="sm" variant="light" className="mt-auto">
-              <h3>Photography</h3>
+              <h2>Photography</h2>
             </Heading>
           </div>
           <div className="relative flex h-[160px] rounded-lg bg-full-wine p-3 lg:h-1/2 lg:p-4">
@@ -106,7 +106,7 @@ export const Skills = () => {
               />
             </div>
             <Heading asChild size="sm" variant="light" className="mt-auto">
-              <h3>Motion Graphics</h3>
+              <h2>Motion Graphics</h2>
             </Heading>
           </div>
         </div>

@@ -14,7 +14,7 @@ export const Contact = () => {
               size="md"
               className="text-center text-3xl lg:text-left lg:text-4xl/tight"
             >
-              <h3>Book a call with me</h3>
+              <h2>Book a call with me</h2>
             </Heading>
             <Text variant="light" className="text-center lg:text-left">
               I’d love to have a chat to see how I can help you. The best first
